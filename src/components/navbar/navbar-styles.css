@@ -1,14 +1,21 @@
+
+
 .navbar-main {
     display: flex;
     align-items: center;
 }
 
 .navbar-logo {
-    max-width: 6rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 10rem;
+    height: 10rem;
+    background-image: url("./Logo_Black_Transparent.png");
+    background-size: cover;
 }
 
 .navbar-logo img {
-    max-width: inherit;
+    max-width: inherit; 
 }
 
 .navbar-links {
@@ -19,11 +26,20 @@
 .navbar-links ul {
     display: flex;
     list-style: none;
+    
 }
 
 .navbar-links li {
     margin-right: 35px;
+    text-decoration: none;
+    color: darkslategrey;
+    
 }
+
+.navbar-menu a {
+    text-decoration: none;
+}
+
 
 .hamburger {
     display: none;
@@ -42,7 +58,7 @@
 @media only screen and (max-width: 768px) {
     .navbar-menu {
         position: fixed;
-        left: -100%;
+        left: -120%;
         top: 5rem;
         flex-direction: column;
         background-color: #fff;

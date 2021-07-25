@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../images/icon.png'
+import logo from '../../images/Logo_Black_Transparent.png'
 
 import './navbar-styles.css'
 
@@ -30,7 +30,7 @@ let navMenu = document.querySelector(".navbar-menu");
                 
             }
             <div className="navbar-logo">
-                <img src={logo} alt="logo" />
+                {/* <img src={logo} alt="logo" /> */}
             </div>
             <div className='navbar-links'>
                 <ul className='navbar-menu'>
