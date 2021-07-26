@@ -1,17 +1,21 @@
-
+body {
+    margin: 0;
+    background-color: #a7b8a65c;
+}
 
 .navbar-main {
     display: flex;
     align-items: center;
+    margin-top: 1em;
 }
 
 .navbar-logo {
-    margin-left: 1em;
-    margin-top: 1em;
-    width: 10rem;
-    height: 10rem;
-    background-image: url("./Logo_Black_Transparent.png");
-    background-size: cover;
+    margin-left: 7vw;
+    width: 23vw;
+    height: 6.4vw;
+    background-image: url("./Logo_Text.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .navbar-logo img {
@@ -21,11 +25,15 @@
 .navbar-links {
     display: flex;
     margin-left: auto;
+    margin-right: 7vw;
+    
 }
 
 .navbar-links ul {
     display: flex;
     list-style: none;
+    font-family: sans-serif;
+    font-size: 1.5vw;
     
 }
 
@@ -38,6 +46,7 @@
 
 .navbar-menu a {
     text-decoration: none;
+    color: #383431;
 }
 
 
